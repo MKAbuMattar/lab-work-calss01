@@ -14,13 +14,18 @@ main {
   color: var(--color-main);
   width: 80%;
   margin: 0 auto;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  --margin-height: 4rem;
+  margin-top: var(--margin-height);
+  margin-bottom: var(--margin-height);
 }
 
 footer {
   height: 10vh;
   font-size: 1.1rem;
+}
+
+footer p {
+  cursor: context-menu;
 }
 
 footer p:hover .heart {
