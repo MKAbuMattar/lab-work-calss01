@@ -9,8 +9,6 @@ export default class HornedBeast extends Component {
           <div className="cardInfo">
             <h2>{this.props.title}</h2>
             <p>Description: {this.props.description}</p>
-            <p>horns: {this.props.horns}</p>
-            <p>keyword: {this.props.keyword}</p>
           </div>
         </div>
       </>
